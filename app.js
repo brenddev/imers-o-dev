@@ -22,7 +22,8 @@ function pesquisar() {
         titulo = dado.titulo.toLowerCase()
         descricao = dado.descricao.toLowerCase()
         // se titulo includes campoPesquisa
-        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa))
+        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)) {
+            
             // cria um novo element
             resultados += `
             <div class="item-resultado">
@@ -42,3 +43,4 @@ function pesquisar() {
 
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
+}
