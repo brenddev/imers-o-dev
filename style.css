@@ -95,6 +95,7 @@ section button {
 .descricao-meta {
     color: #0c0d0f; /* Cor do texto */
     margin: 2.5rem 0; /* Margem acima e abaixo */
+    font-size: 1.5rem;
 }
 
 /* Estiliza o rodapé da página */
